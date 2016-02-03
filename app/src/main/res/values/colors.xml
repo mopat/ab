@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="top_color">#333333</color>
+	<color name="top_text_color">#FFFFFF</color>
+	<color name="hj_color">#3CA0D0</color>
+	<color name="abi_color">#4573D5</color>
+    <color name="abi_textcolor">#FFFFFF</color>
+    <color name="repeat_test_color">#4573D5</color>
+    <color name="abi_points_color">#222222</color>
+    <color name="elem_points_color">#222222</color>
+    <color name="buttons_color">#93002F</color>
+    <color name="background_color">#FFFFFF</color>
+
+</resources>

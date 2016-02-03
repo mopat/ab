@@ -1,0 +1,12 @@
+﻿Augsburg;Universität Augsburg;Universität;
+Bamberg;Otto-Friedrich-Universität Bamberg;Universität;
+Bayreuth;Universität Bayreuth;Universität;
+Erlangen/Nürnberg;Friedrich-Alexander-Universität Erlangen-Nürnberg;Universität;
+Eichstärr/Ingolstadt;Katholische Universität Eichstätt-Ingolstadt;Universität;
+München;Ludwig-Maximilians-Universität München;Universität;
+München;Technische Universität München;Universität;
+München;Ukrainische Freie Universität München;Universität;
+München;Universität der Bundeswehr München;Universität;
+Passau;Universität Passau;Universität;
+Regensburg;Universität Regensburg;Universität;
+Würzburg;Julius-Maximilians-Universität Würzburg;Universität;

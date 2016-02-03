@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical" >
+
+        <!-- 1 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_one"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_first_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_german"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_first_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_first_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_first_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_first_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/abi_color"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="@string/number_efforts"
+                android:textColor="@color/abi_textcolor"
+                android:textSize="18dp" />
+        </TableLayout>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!-- 2 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_two"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_second_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_math"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_second_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_second_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_second_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_second_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+        <!-- 3 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_three"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_third_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_third_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_third_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_third_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_third_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+        <!-- 4 -->
+
+
+        <!-- viertes fach layout Spinner / TV quartales   _______________________________________ -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_four"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_fourth_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_fourth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_fourth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_fourth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_fourth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!-- 5 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_five"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_fifth_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_fifth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_fifth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_fifth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_fifth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_six"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_sixth_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <!-- 6 -->
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_sixth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_sixth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_sixth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_sixth_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!-- 7 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="@string/course_seven"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/c_spinner_seventh_element"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/courses_array_no_value_option"
+            android:prompt="@string/abiturfach_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TableLayout
+            android:id="@+id/qurtal_table_third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/first_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/second_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/third_HJ"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/hj_color"
+                    android:gravity="center"
+                    android:text="@string/fourth_HJ"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/p_spinner_one_seventh_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:prompt="@string/abiturfach_prompt"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_two_seventh_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_three_seventh_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" />
+
+                <Spinner
+                    android:id="@+id/p_spinner_four_seventh_element"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/points_array_no_value_option"
+                    android:spinnerMode="dropdown" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abi_color"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/number_efforts"
+            android:textColor="@color/abi_textcolor"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/one_to_four_array" />
+         
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_color"
+            android:textColor="@color/top_text_color"
+        	android:paddingLeft="5dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/results"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/your_elementary_points"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="16dp"
+            android:paddingTop="3dp"
+            android:gravity="center"
+            android:textColor="@color/elem_points_color"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cons_TV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:gravity="center"
+            android:textColor="@color/abi_points_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/result_button"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Abiturschnitt berechnen"
+            android:textColor="@color/abi_color" />
+    </LinearLayout>
+
+</ScrollView>

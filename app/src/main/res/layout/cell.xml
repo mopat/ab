@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+         <TextView
+            android:id="@+id/stadt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dip"
+            android:paddingBottom="2dp"
+            android:text="stadt" 
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingLeft="3dp"
+            android:textColor="@color/abi_color"
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dip"
+            android:paddingBottom="5dp"
+            android:text="name"
+            android:textSize="16dp" 
+            android:paddingLeft="3dp"/>
+       
+        
+
+</LinearLayout>

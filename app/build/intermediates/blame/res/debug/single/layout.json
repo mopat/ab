@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hschools_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\hschools_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cell.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\artschool_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\artschool_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dates_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\dates_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uni_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\uni_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\result_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\details.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abicalculator__bayern.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\activity_abicalculator__bayern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abi_marks_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\abi_marks_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todo_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\todo_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\elementary_marks_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\elementary_marks_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schools_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\schools_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seminar_marks_layout.xml",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\layout\\seminar_marks_layout.xml"
+    }
+]

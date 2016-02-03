@@ -1,0 +1,8 @@
+﻿Augsburg;Leopold-Mozart-Zentrum Augsburg;Kunsthochschule
+München;Akademie der Bildenden Künste München;Kunsthochschule
+München;Bayerische Theaterakademie August Everding;Kunsthochschule
+München;Hochschule für Musik und Theater München;Kunsthochschule
+München;Hochschule für Fernsehen und Film München;Kunsthochschule
+Nürnberg;Akademie der Bildenden Künste Nürnberg;Kunsthochschule
+Nürnberg;Hochschule für Musik Nürnberg;Kunsthochschule
+Würzburg;Hochschule für Musik Würzburg;Kunsthochschule

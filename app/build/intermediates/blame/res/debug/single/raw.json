@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\raw\\kunsthochschulen.txt",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\raw\\kunsthochschulen.txt"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\raw\\unistxt.txt",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\raw\\unistxt.txt"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fachhochschulen.txt",
+        "source": "C:\\Users\\Patrick\\Desktop\\Stuff\\ABICALC_BAYERN_RES\\AbicalculatorBayern\\app\\src\\main\\res\\raw\\fachhochschulen.txt"
+    }
+]

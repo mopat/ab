@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses_array">
+        <item>Geschichte und Sozialkunde</item>
+        <item>Religion oder Ethik</item>
+        <item>Sport</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatik</item>
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Latein</item>
+        <item>Griechisch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Geographie</item>
+        <item>Wirtschaft und Recht</item>
+        <item>Kunst</item>
+        <item>Musik</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="courses_array_first_oral">
+        <item>1. Mündlich</item>
+        <item>Geschichte und Sozialkunde</item>
+        <item>Religion oder Ethik</item>
+        <item>Sport</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatik</item>
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Latein</item>
+        <item>Griechisch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Geographie</item>
+        <item>Wirtschaft und Recht</item>
+        <item>Kunst</item>
+        <item>Musik</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="courses_array_no_value_option">
+        <item>--</item>
+        <item>Geschichte und Sozialkunde</item>
+        <item>Religion oder Ethik</item>
+        <item>Sport</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatik</item>
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Latein</item>
+        <item>Griechisch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Geographie</item>
+        <item>Wirtschaft und Recht</item>
+        <item>Kunst</item>
+        <item>Musik</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="courses_array_second_oral">
+        <item>2. Mündlich</item>
+        <item>Geschichte und Sozialkunde</item>
+        <item>Religion oder Ethik</item>
+        <item>Sport</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatik</item>
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Latein</item>
+        <item>Griechisch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Geographie</item>
+        <item>Wirtschaft und Recht</item>
+        <item>Kunst</item>
+        <item>Musik</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="courses_array_third_write">
+        <item>3. Prüfungsfach</item>
+        <item>Geschichte und Sozialkunde</item>
+        <item>Religion oder Ethik</item>
+        <item>Sport</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Informatik</item>
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Latein</item>
+        <item>Griechisch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+        <item>Spanisch</item>
+        <item>Italienisch</item>
+        <item>Geographie</item>
+        <item>Wirtschaft und Recht</item>
+        <item>Kunst</item>
+        <item>Musik</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="german_array">
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="mathe_array">
+        <item>Mathematik</item>
+    </string-array>
+    <string-array name="one_to_four_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="points_array">
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="points_array_no_value_option">
+        <item>--</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="points_array_no_value_option_one">
+        <item>keine</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="project_seminar_array">
+        <item>Projektseminar</item>
+    </string-array>
+    <string-array name="science_prop_array">
+        <item>Wissenschaftspropaedeutisches Seminar</item>
+    </string-array>
+    <string-array name="seminar_array">
+        <item>30</item>
+        <item>29</item>
+        <item>28</item>
+        <item>27</item>
+        <item>26</item>
+        <item>25</item>
+        <item>24</item>
+        <item>23</item>
+        <item>22</item>
+        <item>21</item>
+        <item>20</item>
+        <item>19</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="string_array_oral">
+        <item>60</item>
+        <item>59</item>
+        <item>58</item>
+        <item>57</item>
+        <item>56</item>
+        <item>55</item>
+        <item>54</item>
+        <item>53</item>
+        <item>52</item>
+        <item>51</item>
+        <item>50</item>
+        <item>49</item>
+        <item>48</item>
+        <item>47</item>
+        <item>46</item>
+        <item>45</item>
+        <item>44</item>
+        <item>43</item>
+        <item>42</item>
+        <item>41</item>
+        <item>40</item>
+        <item>39</item>
+        <item>38</item>
+        <item>37</item>
+        <item>36</item>
+        <item>35</item>
+        <item>34</item>
+        <item>33</item>
+        <item>32</item>
+        <item>31</item>
+        <item>30</item>
+        <item>29</item>
+        <item>28</item>
+        <item>27</item>
+        <item>26</item>
+        <item>25</item>
+        <item>24</item>
+        <item>23</item>
+        <item>22</item>
+        <item>21</item>
+        <item>20</item>
+        <item>19</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <color name="abi_color">#4573D5</color>
+    <color name="abi_points_color">#222222</color>
+    <color name="abi_textcolor">#FFFFFF</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="buttons_color">#93002F</color>
+    <color name="elem_points_color">#222222</color>
+    <color name="hj_color">#3CA0D0</color>
+    <color name="repeat_test_color">#4573D5</color>
+    <color name="top_color">#333333</color>
+    <color name="top_text_color">#FFFFFF</color>
+    <string name="abi_faecher">Trage hier deine Abiturfächer und die Punktzahlen ein!</string>
+    <string name="abi_leistungen">Abiturfächer</string>
+    <string name="abi_test">Abiprüfung</string>
+    <string name="abiturfach_prompt"/>
+    <string name="add_button_text">Hinzufügen</string>
+    <string name="alert_message_elem">Für eine korrekte Berechnung müssen die Grundkurse der Reihe nach eingetragen werden.</string>
+    <string name="alert_message_elem_calc">Du musst genau 14 Halbjahresleistungen einbringen</string>
+    <string name="alert_title_elem">Hinweis</string>
+    <string name="alert_title_elem_calc">Hinweis</string>
+    <string name="app_name">Abicalculator Bayern</string>
+    <string name="artschool_string">Kunsthochschulen</string>
+    <string name="back_to_start_button_txt">Zurück zur Startseite</string>
+    <string name="calculator">Rechner</string>
+    <string name="complete">Gesamt</string>
+    <string name="course_five">5. Grundkurs</string>
+    <string name="course_four">4. Grundkurs</string>
+    <string name="course_one">1. Grundkurs</string>
+    <string name="course_seven">7. Grundkurs</string>
+    <string name="course_six">6. Grundkurs</string>
+    <string name="course_three">3. Grundkurs</string>
+    <string name="course_two">2. Grundkurs</string>
+    <string name="date_button_text">Prüfungstermine</string>
+    <string name="dates">Prüfungstermine</string>
+    <string name="delete_button">Löschen</string>
+    <string name="details_top">Details</string>
+    <string name="error">ERROR</string>
+    <string name="first_HJ">11/1</string>
+    <string name="fourth_HJ">12/2</string>
+    <string name="german_date_string">10.5.2013 Deutsch</string>
+    <string name="grundkurs_leistungen">Grundkursleistungen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hschool_string">Hochschulen</string>
+    <string name="math_date_string">17.5.2013 Mathematik</string>
+    <string name="menu_settings">Settings</string>
+    <string name="notes">Notizen</string>
+    <string name="number_efforts">Anzahl der Einbringungen</string>
+    <string name="ok_button">Speichern</string>
+    <string name="oral_abicourses">Mündliche Abiturfächer</string>
+    <string name="oral_date_string">3.6. - 14.6.2013 Kolloquium</string>
+    <string name="oral_date_top">Mündliche Abiturtermine</string>
+    <string name="project_seminar">Projektseminar</string>
+    <string name="projectseminar_mark">Projektseminar</string>
+    <string name="pruefung_praesi">Prüfung</string>
+    <string name="repeat_test">Nachprüfung</string>
+    <string name="results">Ergebnisse</string>
+    <string name="schools">Bayerns Hochschulen</string>
+    <string name="science_prop">Wissenschaftspropädeutisches Seminar</string>
+    <string name="second_HJ">11/2</string>
+    <string name="seminar_leistungen">Seminarleistungen</string>
+    <string name="start_button_text">Zum Rechner</string>
+    <string name="third_HJ">12/1</string>
+    <string name="third_date_string">14.5.2013 Drittes Prüfungsfach</string>
+    <string name="todo_button_text">Notizen</string>
+    <string name="todo_hint">Notiz hinzufügen</string>
+    <string name="todo_top">Notizen</string>
+    <string name="unis_string">Universitäten</string>
+    <string name="write_abicourses">Schriftliche Abiturfächer</string>
+    <string name="write_date_top">Schriftliche Abiturtermine</string>
+    <string name="your_schnitt">Abiturschnitt</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface">sans</item>
+        
+    </style>
+</resources>

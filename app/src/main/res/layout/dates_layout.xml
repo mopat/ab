@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/dates_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dates_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_color"
+            android:paddingBottom="6dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:text="@string/write_date_top"
+            android:textColor="@color/top_text_color"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/german_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/german_date_string"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/third_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/third_date_string"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/math_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/math_date_string"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/top_color"
+            android:paddingBottom="6dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:text="@string/oral_date_top"
+            android:textColor="@color/top_text_color"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/oral_date"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/oral_date_string"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        android:id="@+id/adMob_dates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a151618366212ac"
+        android:gravity="bottom" />
+
+</RelativeLayout>

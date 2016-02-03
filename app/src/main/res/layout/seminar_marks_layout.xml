@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_color"
+        android:paddingBottom="6dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:text="@string/science_prop"
+        android:textColor="@color/top_text_color"
+        android:textSize="18dp" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/hj_color"
+                android:gravity="center"
+                android:text="@string/first_HJ"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/hj_color"
+                android:gravity="center"
+                android:text="@string/second_HJ"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/hj_color"
+                android:gravity="center"
+                android:text="@string/pruefung_praesi"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/p_spinner_one_science_prop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/points_array"
+                android:prompt="@string/abiturfach_prompt"
+                android:spinnerMode="dropdown" />
+
+            <View
+                android:id="@+id/firstVertDivider"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <Spinner
+                android:id="@+id/p_spinner_two_science_prop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/points_array"
+                android:spinnerMode="dropdown" />
+
+            <View
+                android:id="@+id/secondVertDivider"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#000000" />
+
+            <Spinner
+                android:id="@+id/p_spinner_three_science_prop_praeseminar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/seminar_array"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/top_color"
+                android:paddingBottom="6dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                 android:textColor="@color/top_text_color"
+                android:text="@string/projectseminar_mark"
+               
+                android:textSize="22dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/hj_color"
+                android:gravity="center"
+                android:text="@string/complete"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/points_spinner_project_seminar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/seminar_array"
+                android:prompt="@string/abiturfach_prompt"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_color"
+        android:paddingBottom="6dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:text="@string/results"
+        android:textColor="@color/top_text_color"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/your_Seminar_points"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingRight="16dp"
+        android:paddingTop="3dp"
+        android:textColor="@color/abi_points_color"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/elementary_courses_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Zu den Grundkursen"
+        android:textColor="@color/abi_color" />
+
+</LinearLayout>
