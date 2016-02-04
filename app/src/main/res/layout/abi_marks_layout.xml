@@ -431,7 +431,6 @@
         <!-- dittes fach layout Spinner / TV quartale -->
 
         <TableLayout
-            android:id="@+id/qurtal_table_third"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 
@@ -644,7 +643,6 @@
             android:spinnerMode="dropdown" />
 
         <TableLayout
-            android:id="@+id/qurtal_table_third"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 
@@ -817,7 +815,6 @@
             android:spinnerMode="dropdown" />
 
         <TableLayout
-            android:id="@+id/qurtal_table_third"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 

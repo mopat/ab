@@ -1,7 +1,7 @@
 package patrick.morczinietz.abicalculatorbayern;
 
 public class Courses {
-	//Fächer mit jeweils 3 verpflichtenden Halbjahresleistungen
+	//Facher mit jeweils 3 verpflichtenden Halbjahresleistungen
 		public static final String HISTORY_SOCIAL = "Geschichte und Sozialkunde";
 		public static final String RELI_ETHIK = "Religion oder Ethik";
 		public static final String GEO = "Geographie";
